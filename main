@@ -1,9 +1,31 @@
 <!DOCTYPE html>
 <html>
+    <h1>
+        Party Information </h1>
+    <section class="party" id="party1">
+<header>
+</header>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+ <header>
+<h2> Party 1</h2>
+</header>
+<p>This is Angelica's Party! All you can eat Mexican food. Closes at 11pm.</p>
+<button data-delete-party="party1">Delete</button>
+</section>
+<section class="party" id="party2">
+<header>
+<h2> Party 2</h2>
+</header>
+<p>This is Mona's Party! Free drinks but expensive food. Closes at 9pm</p>
+<button data-delete-party="party2">Delete</button>
+</section>
+<section class="party" id="party3">
+<header>
+<h2> Party 3</h2>
+</header>   
+<p>This is Jerry's Party! No free food or drinks. Closes at 7pm</p>
+<button data-delete-party="party3">Delete</button>
+</section>
 </body>
 </html>
+<script src="javascript.js"></script>
